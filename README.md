@@ -61,9 +61,9 @@ public class MainActivity extends AppActivity {
   @Override public void performAction(final String calledAction, final Map<String, String> map)
   {
     switch (calledAction)
-    { case HELP_TO_POSTURE_ACTION:
-      HelpToPostureAction htpa = new HelpToPostureAction(this, cade);
-      htpa.performAction(calledAction, map); break;
+    { 
+      case YOUR_ACTION:
+      //Some code to handle the result
       default: break;
     }
   }
